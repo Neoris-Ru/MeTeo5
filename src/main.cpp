@@ -1,8 +1,9 @@
 #include <GxEPD.h>
+//#include <GxGDE0213B72B/GxGDE0213B72B.h> // 2.13" b/w for v.2_3
 #include <GxGDE0213B72/GxGDE0213B72.h> // 2.13" b/w
 #include <Fonts/FreeMonoBold12pt7b.h>
-#include <GxIO/GxIO_SPI/GxIO_SPI.cpp>
-#include <GxIO/GxIO.cpp>
+#include <GxIO/GxIO_SPI/GxIO_SPI.h>
+#include <GxIO/GxIO.h>
 #include <WiFi.h>
 #include "openweathermap.h"
 #define ELINK_BUSY 4
